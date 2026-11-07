@@ -1,6 +1,6 @@
 #include <romac/nucleus>
-#include "fluxusio"
-#include "filum"
+#include "libs/fluxusio"
+#include "libs/filum"
 #include <cstdlib>
 
 int main(int argc, char** argv) {
