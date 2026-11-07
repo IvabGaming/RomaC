@@ -1,0 +1,13 @@
+#ifndef FLUXUSIO
+#define FLUXUSIO
+
+#include <iostream>
+
+namespace noa {
+    inline std::ostream& cex = std::cout;
+    using std::cin;
+    using std::cerr;
+    constexpr auto finl = std::endl<char, std::char_traits<char>>;
+}
+
+#endif

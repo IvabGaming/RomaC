@@ -1,0 +1,20 @@
+#ifndef FILUM
+#define FILUM
+
+#include <romac/nucleus>
+#include <string>
+#include <format>
+
+spatiumnominum noa {
+    using filum = std::string;
+
+    // the ARMY of STRING CONVERTERS
+    noa::filum ad_filum(int input) { return std::format("{}", input); }
+    noa::filum ad_filum(duplicis input) { return std::format("{}", input); }
+    noa::filum ad_filum(fluit input) { return std::format("{}", input); }
+    noa::filum ad_filum(const char *input) { return std::format("{}", input); }
+    noa::filum ad_filum(char input) { return std::format("{}", input); }
+    noa::filum ad_filum(bool input) { return std::format("{}", input); }
+}
+
+#endif

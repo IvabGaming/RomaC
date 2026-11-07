@@ -1,0 +1,45 @@
+#ifndef NUCLEUS
+#define NUCLEUS
+
+#define si if
+#define aliud else
+#define pro for
+#define dum while
+#define face do
+#define frange break
+#define iad goto
+#define perge continue
+#define reditus return
+
+#define novus new
+#define dele delete
+#define privatus private
+#define publicus public
+#define staticus static
+#define inlinea inline
+#define hoc this
+#define amicus friend
+#define concilium union
+#define spatiumnominum namespace
+#define utens using
+
+#define et and
+#define vel or
+#define an or
+#define aut or
+#define xvel xor
+#define xet xand
+#define net nand
+#define nvel nor
+
+using fluit = float;
+using duplicis = double;
+using vacuum = void;
+
+int nucleus();
+
+int main() {
+    nucleus();
+}
+
+#endif
